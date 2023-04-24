@@ -1,15 +1,9 @@
-body {
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
 #card {
     display: block;
     border: brown 8px solid;
     border-radius: 10px;
     transition: box-shadow 0.2s;
+    margin: 15px 30px;
 }
 
 #card:hover {

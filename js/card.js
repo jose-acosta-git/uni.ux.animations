@@ -28,5 +28,4 @@ function actualizarPerspectiva(e) {
 //Devuelve la card a su tamaño y rotación original
 card.addEventListener('mouseout', function() {
     card.style.transform = 'scale(1) rotateX(0) rotateY(0)'
-    console.log("out");
   })

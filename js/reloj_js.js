@@ -1,7 +1,7 @@
 //Declaro constantes (las agujas del reloj)
-const aguja_hora = document.getElementById('hora');
-const aguja_minutos = document.getElementById('minuto');
-const aguja_segundos = document.getElementById('segundo');
+const aguja_hora = document.getElementById('hora_js');
+const aguja_minutos = document.getElementById('minuto_js');
+const aguja_segundos = document.getElementById('segundo_js');
 
 //Cada mil milisegundos (un segundo) se va a ejectuar esta arrow function
 setInterval(() =>  {

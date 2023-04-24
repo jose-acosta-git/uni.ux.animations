@@ -1,0 +1,32 @@
+#hora_css {animation: mover_horas 216000s infinite linear;}
+  
+#minuto_css {animation: mover_minutos 3600s infinite linear;}
+  
+#segundo_css {animation: mover_segundos 60s infinite linear;}
+
+@keyframes mover_segundos {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes mover_minutos {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes mover_minutos {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
