@@ -1,9 +1,9 @@
+/*Setea la animacion de mover las agujas, cada una con el tiempo que debe tardar*/
 #hora_css {animation: mover_horas 216000s infinite linear;}
-  
 #minuto_css {animation: mover_minutos 3600s infinite linear;}
-  
 #segundo_css {animation: mover_segundos 60s infinite linear;}
 
+/*Indica que debe dar una vuelta completa en lo que dura la animacion*/
 @keyframes mover_segundos {
     from {
         transform: rotate(0deg);

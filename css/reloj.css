@@ -10,6 +10,7 @@
     width: 100%;
 }
 
+/*Modifica el transform origin para que las rotaciones se hagan desde el extremo del elemento*/
 .aguja {
     position: absolute;
     background: black;
