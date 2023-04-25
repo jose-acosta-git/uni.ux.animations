@@ -19,6 +19,7 @@
     margin: 0;
 }
 
+/*Posiciona y establece el tamaño de las agujas*/
 .hora {
     width: 2%;
     height: 23%;
